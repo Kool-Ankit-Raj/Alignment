@@ -1,6 +1,6 @@
 # Alignment Plugin for Obsidian
 
-A lightweight and intuitive plugin for Obsidian that allows you to align your text to the **Center**, **Right**, or **Justify** with just a few clicks. This plugin helps you style your notes by wrapping selected text in HTML `div` containers.
+A lightweight and intuitive plugin for Obsidian that allows you to align your text to the **Center**, **Right**, or **Justify** with just a few clicks. This plugin helps you style your notes by wrapping selected text in < align >text< align >.
 
 ## ✨ Features
 * **Context Menu Integration:** Right-click any selection to access the "Align" menu.
