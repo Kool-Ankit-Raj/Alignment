@@ -17,18 +17,12 @@ A lightweight and intuitive plugin for Obsidian that allows you to align your te
 ## ⚙️ Settings
 * **Enable Justify:** Toggle this in the settings tab to add "Justify" to your alignment options.
 
-## 🎨 CSS Classes
-The plugin applies the following classes which can be further customized in your `snippets`:
-* `.align-center`
-* `.align-right`
-* `.align-justify`
-
 ## 🛠 Installation
 ### Community Plugins (Coming Soon)
 Search for "Alignment" in the Obsidian Community Plugins browser once the PR is approved.
 
 ### Manual Installation
-1.  Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/Kool-Ankit-Raj/Alignment/releases).
+1.  Download `main.js`, `manifest.json`, from the [latest release](https://github.com/Kool-Ankit-Raj/Alignment/releases).
 2.  Inside your Obsidian vault, go to `.obsidian/plugins/` and create a folder named `alignment`.
 3.  Place the three files inside that folder.
 4.  Go to **Settings > Community Plugins** and enable **Alignment**.
