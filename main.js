@@ -126,14 +126,14 @@ module.exports = class AlignmentPlugin extends Plugin {
         const selection = editor.getSelection();
         if (!selection) return;
 
-        const alignRegex = /<div class="align-.*?">(.*?)<\/div>/gs;
+        const alignRegex = /<.*?>(.*?)<\/.*?>/gs;
 
         if (type === "clear") {
             const cleaned = selection.replace(alignRegex, '$1');
             editor.replaceSelection(cleaned);
         } else {
             const cleanSelection = selection.replace(alignRegex, '$1');
-            const replacement = `<div class="align-${type}">${cleanSelection}</div>`;
+            const replacement = `<${type}>${cleanSelection}</${type}>`;
             editor.replaceSelection(replacement);
         }
     }
